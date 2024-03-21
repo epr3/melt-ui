@@ -1,5 +1,17 @@
 # @melt-ui/svelte
 
+## 0.76.1
+
+### Patch Changes
+
+- Fixed bug where focus trap deactivates in dialog and popover when clicking outside provided `closeOnOutsideClick: false` (closes #1084) ([#1094](https://github.com/melt-ui/melt-ui/pull/1094))
+
+- Fixed bug where focus trap deactivates in dialog and popover when pressing escape provided `closeOnEscape: false` (closes #1091) ([#1095](https://github.com/melt-ui/melt-ui/pull/1095))
+
+- Fixed memory leak caused by race conditions for various components (closes #1086) ([#1087](https://github.com/melt-ui/melt-ui/pull/1087))
+
+- performance: avoid effect multiple runs ([#1089](https://github.com/melt-ui/melt-ui/pull/1089))
+
 ## 0.76.0
 
 ### Minor Changes
